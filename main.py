@@ -20,7 +20,7 @@ class inputRekom (BaseModel):
     bbpb: float
     zsbbpb: float
 
-with open('randomforest.pkl','rb') as f:
+with open('xgboostoke.pkl','rb') as f:
     model = pickle.load(f)
 
 @app.post('/')
